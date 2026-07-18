@@ -1,0 +1,19 @@
+# Logs
+*.log
+consumer.log
+producer.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Terraform state (contains sensitive resource info)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Environment/secrets
+.env
+*.pem
